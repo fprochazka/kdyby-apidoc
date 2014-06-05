@@ -1,0 +1,47 @@
+{
+	"require": {
+		"kdyby/annotations": "dev-master",
+		"kdyby/aop": "dev-master",
+		"kdyby/autowired": "dev-master",
+		"kdyby/bootstrap-form-renderer": "dev-master",
+		"kdyby/console": "dev-master",
+		"kdyby/curl": "dev-master",
+		"kdyby/curl-ca-bundle": "dev-master as 1.0.999",
+		"kdyby/doctrine": "dev-master",
+		"kdyby/doctrine-cache": "dev-master",
+		"kdyby/doctrine-forms": "dev-master",
+		"kdyby/doctrine-money": "dev-master",
+		"kdyby/events": "dev-master",
+		"kdyby/facebook": "dev-master",
+		"kdyby/forms-replicator": "dev-master",
+		"kdyby/github": "dev-master",
+		"kdyby/google": "dev-master",
+		"kdyby/money": "dev-master",
+		"kdyby/monolog": "dev-master",
+		"kdyby/paypal-express": "dev-master",
+		"kdyby/qr-encode": "dev-master",
+		"kdyby/redis": "dev-master",
+		"kdyby/translation": "dev-master",
+		"kdyby/validator": "dev-master",
+
+		"google/apiclient": "~1.0.4@beta",
+
+		"beberlei/DoctrineExtensions": "dev-master",
+
+		"symfony/process": "~2.5",
+		"symfony/config": "~2.5",
+		"symfony/console": "~2.5",
+		"symfony/event-dispatcher": "~2.5",
+		"symfony/property-access": "~2.5",
+		"symfony/translation": "~2.5",
+		"symfony/validator": "~2.5",
+		"symfony/yaml": "~2.5",
+
+		"nextras/secured-links": "~1.2",
+
+		"majkl578/nette-identity-doctrine": "~2.1",
+
+		"kukulich/fshl" : "2.1.0"
+	}
+}
+
