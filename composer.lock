@@ -816,12 +816,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kdyby/BootstrapFormRenderer.git",
-                "reference": "d13cae47ae714571726f844e49a474cd6265ecff"
+                "reference": "ca9b8e5d38267bc01751ca33d298bc65cdd09adc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kdyby/BootstrapFormRenderer/zipball/d13cae47ae714571726f844e49a474cd6265ecff",
-                "reference": "d13cae47ae714571726f844e49a474cd6265ecff",
+                "url": "https://api.github.com/repos/Kdyby/BootstrapFormRenderer/zipball/ca9b8e5d38267bc01751ca33d298bc65cdd09adc",
+                "reference": "ca9b8e5d38267bc01751ca33d298bc65cdd09adc",
                 "shasum": ""
             },
             "require": {
@@ -858,7 +858,7 @@
                 "kdyby",
                 "nette"
             ],
-            "time": "2014-05-31 16:01:37"
+            "time": "2014-06-08 21:51:58"
         },
         {
             "name": "kdyby/console",
@@ -866,12 +866,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kdyby/Console.git",
-                "reference": "741505c89c396e6ff5b57a5bab01fca6ce1befa9"
+                "reference": "77a8285aa42f5c6555cf2ed3bb116a10f243ab88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kdyby/Console/zipball/741505c89c396e6ff5b57a5bab01fca6ce1befa9",
-                "reference": "741505c89c396e6ff5b57a5bab01fca6ce1befa9",
+                "url": "https://api.github.com/repos/Kdyby/Console/zipball/77a8285aa42f5c6555cf2ed3bb116a10f243ab88",
+                "reference": "77a8285aa42f5c6555cf2ed3bb116a10f243ab88",
                 "shasum": ""
             },
             "require": {
@@ -923,7 +923,7 @@
                 "kdyby",
                 "nette"
             ],
-            "time": "2014-05-31 16:01:37"
+            "time": "2014-06-07 18:00:17"
         },
         {
             "name": "kdyby/curl",
@@ -1043,12 +1043,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kdyby/Doctrine.git",
-                "reference": "e97d736c47fb391db1b71b8b33c46fa0eabfaf6a"
+                "reference": "3b9a4391c0bede98895d041bc7eccc46ab4dcb73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kdyby/Doctrine/zipball/e97d736c47fb391db1b71b8b33c46fa0eabfaf6a",
-                "reference": "e97d736c47fb391db1b71b8b33c46fa0eabfaf6a",
+                "url": "https://api.github.com/repos/Kdyby/Doctrine/zipball/3b9a4391c0bede98895d041bc7eccc46ab4dcb73",
+                "reference": "3b9a4391c0bede98895d041bc7eccc46ab4dcb73",
                 "shasum": ""
             },
             "require": {
@@ -1106,7 +1106,7 @@
                 "nette",
                 "orm"
             ],
-            "time": "2014-06-05 17:43:12"
+            "time": "2014-06-08 10:55:36"
         },
         {
             "name": "kdyby/doctrine-cache",
@@ -1299,12 +1299,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kdyby/Events.git",
-                "reference": "c130cf1847f15ebae0bd173c80d95a0246920472"
+                "reference": "d1c6b447fadb3de37d12ad89b9688482fe888a7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kdyby/Events/zipball/c130cf1847f15ebae0bd173c80d95a0246920472",
-                "reference": "c130cf1847f15ebae0bd173c80d95a0246920472",
+                "url": "https://api.github.com/repos/Kdyby/Events/zipball/d1c6b447fadb3de37d12ad89b9688482fe888a7b",
+                "reference": "d1c6b447fadb3de37d12ad89b9688482fe888a7b",
                 "shasum": ""
             },
             "require": {
@@ -1355,7 +1355,7 @@
                 "kdyby",
                 "nette"
             ],
-            "time": "2014-05-31 16:01:37"
+            "time": "2014-06-07 14:19:34"
         },
         {
             "name": "kdyby/facebook",
@@ -1490,12 +1490,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kdyby/Github.git",
-                "reference": "7b184f4a54848f447bcd9a13dbed741c6d831d7c"
+                "reference": "78eee88f6db50e574fadfc9984f12f1181ea3ed0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kdyby/Github/zipball/7b184f4a54848f447bcd9a13dbed741c6d831d7c",
-                "reference": "7b184f4a54848f447bcd9a13dbed741c6d831d7c",
+                "url": "https://api.github.com/repos/Kdyby/Github/zipball/78eee88f6db50e574fadfc9984f12f1181ea3ed0",
+                "reference": "78eee88f6db50e574fadfc9984f12f1181ea3ed0",
                 "shasum": ""
             },
             "require": {
@@ -1544,7 +1544,7 @@
                 "nette",
                 "sdk"
             ],
-            "time": "2014-05-31 16:01:37"
+            "time": "2014-06-08 23:34:37"
         },
         {
             "name": "kdyby/google",
