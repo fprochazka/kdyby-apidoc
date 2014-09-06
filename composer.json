@@ -41,14 +41,13 @@
 
 		"nextras/secured-links": "~1.2",
 
-		"videlalvaro/php-amqplib": "dev-devel as 2.4.99",
+		"videlalvaro/php-amqplib": "dev-master",
 
 		"majkl578/nette-identity-doctrine": "~2.1",
 
 		"kukulich/fshl" : "2.1.0"
 	},
 	"repositories": [
-		{ "type": "vcs", "url": "https://github.com/fprochazka/php-amqplib.git" }
 	]
 }
 

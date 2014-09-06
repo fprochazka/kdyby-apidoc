@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "81de9b79783f25f5b205f4a1ffcb9f56",
+    "hash": "760469c9bd0db0965f8546dce99600b4",
     "packages": [
         {
             "name": "beberlei/DoctrineExtensions",
@@ -4356,16 +4356,16 @@
         },
         {
             "name": "videlalvaro/php-amqplib",
-            "version": "dev-devel",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fprochazka/php-amqplib.git",
-                "reference": "47cfcb499d79a16680952af269beb3dbf876d79d"
+                "url": "https://github.com/videlalvaro/php-amqplib.git",
+                "reference": "498a519f5def8b2b11688502b4629ed9e9098d5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fprochazka/php-amqplib/zipball/47cfcb499d79a16680952af269beb3dbf876d79d",
-                "reference": "47cfcb499d79a16680952af269beb3dbf876d79d",
+                "url": "https://api.github.com/repos/videlalvaro/php-amqplib/zipball/498a519f5def8b2b11688502b4629ed9e9098d5f",
+                "reference": "498a519f5def8b2b11688502b4629ed9e9098d5f",
                 "shasum": ""
             },
             "require": {
@@ -4389,6 +4389,7 @@
                     "PhpAmqpLib": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "LGPL-2.1"
             ],
@@ -4404,10 +4405,7 @@
                 "queue",
                 "rabbitmq"
             ],
-            "support": {
-                "source": "https://github.com/fprochazka/php-amqplib/tree/devel"
-            },
-            "time": "2014-06-25 17:58:44"
+            "time": "2014-08-22 12:20:06"
         }
     ],
     "packages-dev": [],
@@ -4417,12 +4415,6 @@
             "alias_normalized": "1.0.999.0",
             "version": "9999999-dev",
             "package": "kdyby/curl-ca-bundle"
-        },
-        {
-            "alias": "2.4.99",
-            "alias_normalized": "2.4.99.0",
-            "version": "dev-devel",
-            "package": "videlalvaro/php-amqplib"
         }
     ],
     "minimum-stability": "stable",
