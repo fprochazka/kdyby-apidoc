@@ -4,6 +4,7 @@
 		"kdyby/aop": "dev-master",
 		"kdyby/autowired": "dev-master",
 		"kdyby/bootstrap-form-renderer": "dev-master",
+		"kdyby/clock": "dev-master",
 		"kdyby/console": "dev-master",
 		"kdyby/curl": "dev-master",
 		"kdyby/curl-ca-bundle": "dev-master as 1.0.999",
@@ -20,6 +21,7 @@
 		"kdyby/monolog": "dev-master",
 		"kdyby/paypal-express": "dev-master",
 		"kdyby/qr-encode": "dev-master",
+		"kdyby/rabbitmq": "dev-master",
 		"kdyby/redis": "dev-master",
 		"kdyby/translation": "dev-master",
 		"kdyby/validator": "dev-master",
@@ -39,9 +41,14 @@
 
 		"nextras/secured-links": "~1.2",
 
+		"videlalvaro/php-amqplib": "dev-devel as 2.4.99",
+
 		"majkl578/nette-identity-doctrine": "~2.1",
 
 		"kukulich/fshl" : "2.1.0"
-	}
+	},
+	"repositories": [
+		{ "type": "vcs", "url": "https://github.com/fprochazka/php-amqplib.git" }
+	]
 }
 
