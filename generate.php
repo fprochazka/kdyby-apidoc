@@ -27,7 +27,7 @@ foreach (Finder::findDirectories('*')->in($params['vendorDir']) as $vendorDir) {
 	foreach (Finder::findDirectories('*')->in($vendorDir) as $packageDir) {
 
 		// exclude in package
-		foreach (Finder::findDirectories('example*', 'style*', 'test*', 'doc*', 'tool*', '.git', 'bin')->in($packageDir) as $excludeDir) {
+		foreach (Finder::findDirectories('example*', 'style*', 'test*', 'doc*', 'tool*', '.git', 'bin', 'demo', 'benchmark')->in($packageDir) as $excludeDir) {
 			$settings['exclude'][] = $excludeDir->getPathname();
 		}
 
