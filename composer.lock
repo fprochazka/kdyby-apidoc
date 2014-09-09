@@ -585,22 +585,30 @@
         },
         {
             "name": "google/apiclient",
-            "version": "1.0.4-beta",
+            "version": "1.0.5-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/google-api-php-client.git",
-                "reference": "eb5934d58761f1a8575e6df6de02fdce89dd89d2"
+                "reference": "c05d454790460f0c851c42298ea239ec5e631d76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/eb5934d58761f1a8575e6df6de02fdce89dd89d2",
-                "reference": "eb5934d58761f1a8575e6df6de02fdce89dd89d2",
+                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/c05d454790460f0c851c42298ea239ec5e631d76",
+                "reference": "c05d454790460f0c851c42298ea239ec5e631d76",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.1"
             },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
             "autoload": {
                 "classmap": [
                     "src/"
@@ -618,7 +626,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2014-03-07 17:54:19"
+            "time": "2014-09-08 20:57:18"
         },
         {
             "name": "kdyby/annotations",
@@ -1381,12 +1389,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kdyby/DoctrineForms.git",
-                "reference": "20293ced3c07970b40ecad3b1807e8a3ceffae77"
+                "reference": "5d4b7e0bca7e2f3a75322e6dfb381747f80d94d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kdyby/DoctrineForms/zipball/20293ced3c07970b40ecad3b1807e8a3ceffae77",
-                "reference": "20293ced3c07970b40ecad3b1807e8a3ceffae77",
+                "url": "https://api.github.com/repos/Kdyby/DoctrineForms/zipball/5d4b7e0bca7e2f3a75322e6dfb381747f80d94d0",
+                "reference": "5d4b7e0bca7e2f3a75322e6dfb381747f80d94d0",
                 "shasum": ""
             },
             "require": {
@@ -1461,7 +1469,7 @@
                 "nette",
                 "validation"
             ],
-            "time": "2014-07-27 16:11:59"
+            "time": "2014-09-08 14:56:00"
         },
         {
             "name": "kdyby/doctrine-money",
@@ -2008,12 +2016,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kdyby/Monolog.git",
-                "reference": "e45b7c37f23128528240514e22ab4212c1149e11"
+                "reference": "73ef3766801a55b3f9f5743387ad0ab24b203fb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kdyby/Monolog/zipball/e45b7c37f23128528240514e22ab4212c1149e11",
-                "reference": "e45b7c37f23128528240514e22ab4212c1149e11",
+                "url": "https://api.github.com/repos/Kdyby/Monolog/zipball/73ef3766801a55b3f9f5743387ad0ab24b203fb6",
+                "reference": "73ef3766801a55b3f9f5743387ad0ab24b203fb6",
                 "shasum": ""
             },
             "require": {
@@ -2047,6 +2055,11 @@
                 "tracy/tracy": "~2.2@dev"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "Kdyby\\Monolog\\": "src/"
@@ -2078,7 +2091,7 @@
                 "monolog",
                 "nette"
             ],
-            "time": "2014-07-27 16:09:23"
+            "time": "2014-09-08 19:09:34"
         },
         {
             "name": "kdyby/paypal-express",
