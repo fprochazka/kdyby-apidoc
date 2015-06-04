@@ -26,7 +26,7 @@
 		"kdyby/translation": "dev-master",
 		"kdyby/validator": "dev-master",
 
-		"google/apiclient": "~1.0.4@beta",
+		"google/apiclient": "~1.1",
 
 		"beberlei/DoctrineExtensions": "dev-master",
 
