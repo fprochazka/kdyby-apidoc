@@ -51,5 +51,5 @@ foreach (Finder::findDirectories('Test*')->limitDepth(3)->from($params['vendorDi
 file_put_contents(__DIR__ . '/apigen.neon', \Nette\Neon\Neon::encode($settings, \Nette\Neon\Neon::BLOCK));
 
 
-passthru(sprintf('/usr/local/bin/php -dmemory_limit=1024M /usr/local/bin/apigen --config %s', escapeshellarg($params['rootDir'] . '/apigen.neon')));
+passthru(sprintf('/usr/local/bin/php -dmemory_limit=1024M /usr/local/bin/apigen generate --config %s', escapeshellarg($params['rootDir'] . '/apigen.neon')));
 
