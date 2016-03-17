@@ -6,27 +6,30 @@
 		"kdyby/bootstrap-form-renderer": "dev-master",
 		"kdyby/clock": "dev-master",
 		"kdyby/console": "dev-master",
+		"kdyby/csob-paygate-nette": "dev-master",
+		"kdyby/csob-payment-gateway": "dev-master as 1.0.9999",
 		"kdyby/curl": "dev-master",
 		"kdyby/curl-ca-bundle": "dev-master as 1.0.999",
 		"kdyby/doctrine": "dev-master",
 		"kdyby/doctrine-cache": "dev-master",
 		"kdyby/doctrine-forms": "dev-master",
 		"kdyby/doctrine-money": "dev-master",
+		"kdyby/elastic-search": "dev-master",
 		"kdyby/events": "dev-master",
 		"kdyby/facebook": "dev-master",
+		"kdyby/fake-session": "dev-master",
 		"kdyby/forms-replicator": "dev-master",
+		"kdyby/geocoder": "dev-master",
 		"kdyby/github": "dev-master",
 		"kdyby/google": "dev-master",
 		"kdyby/money": "dev-master",
 		"kdyby/monolog": "dev-master",
-		"kdyby/paypal-express": "dev-master",
-		"kdyby/qr-encode": "dev-master",
 		"kdyby/rabbitmq": "dev-master",
 		"kdyby/redis": "dev-master",
+		"kdyby/request-stack": "dev-master",
 		"kdyby/translation": "dev-master",
 		"kdyby/validator": "dev-master",
-
-		"google/apiclient": "~1.1",
+		"kdyby/wkhtmltopdf": "dev-master",
 
 		"beberlei/DoctrineExtensions": "dev-master",
 
@@ -39,11 +42,11 @@
 		"symfony/validator": "~2.5",
 		"symfony/yaml": "~2.5",
 
-		"nextras/secured-links": "~1.2",
+		"nextras/secured-links": "~1.3",
 
-		"videlalvaro/php-amqplib": "dev-master",
+		"videlalvaro/php-amqplib": "~2.5",
 
-		"majkl578/nette-identity-doctrine": "~2.1",
+		"majkl578/nette-identity-doctrine": "~2.3@rc",
 
 		"kukulich/fshl" : "2.1.0"
 	},
