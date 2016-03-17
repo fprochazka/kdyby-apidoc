@@ -12,7 +12,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 $params = [
 	'rootDir' => __DIR__,
 	'vendorDir' => __DIR__ . '/vendor',
-	'wwwDir' => __DIR__ . '/www',
+	'wwwDir' => __DIR__ . '/www_new',
 ];
 
 $settings = \Nette\Neon\Neon::decode(file_get_contents(__DIR__ . '/apigen.template.neon'));
